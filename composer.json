@@ -1,0 +1,31 @@
+{
+    "name": "llama-laravel/table-view",
+    "description": "Laravel 5 Package for easily displaying table views for Eloquent Collections with search and sort functionality built in.",
+    "keywords": ["search", "sort", "pagination", "data table", "table view", "laravel", "llama"],
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "XuaNguyen",
+        "email": "xuan.0211@gmail.com",
+        "role": "Dev"
+      }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Llama\\TableView\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.* | 5.1.* | 5.2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*",
+        "phpspec/phpspec": "~2.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Llama\\TableView\\Tests\\": "tests/"
+        }
+    }
+}

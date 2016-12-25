@@ -1,0 +1,4 @@
+suites:
+  library_suite:
+    namespace: xuanhoa88\TableView
+    psr4_prefix: xuanhoa88\TableView
